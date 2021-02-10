@@ -1,0 +1,22 @@
+﻿Person {
+        name!
+        id!
+        gender
+        country
+        age!
+        [purchases!]
+}
+Purchases {
+        date!
+        time
+        category
+        amount!
+        store
+        tip
+}
+Category {
+        name!
+        number
+        color
+        [purchases]
+}
